@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maclaurin Algorithm</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bormok.css">
+    </head>
+    <body>
+        <div id="modt">
+            <span>Welcome to Maclaurin algorithm web page.</span>
+            <span class="support">
+                <img class="good" src="./img/firefox.png">
+                <img class="good" src="./img/opera.png">
+                <img class="warning" src="./img/chrome.png">
+            </span>
+        </div>
+        <div>
+            Argument example: 1,2,3,4,5 <br>
+            Accuracy Example: 25 <br>
+            Count Example: 10 <br>
+        </div>
+        <main>
+            <form class="display-as-form form-space" autocomplete="off" action="/MaclaurinServelet/MMRH" method="GET">
+                <info>Maclaurin</info>
+                <div class="form-row-input">
+                    <header>Arguments X:</header>
+                    <input name="ArgsX" required/>
+                </div>
+                <div class="form-row-input">
+                    <header>Accuracy</header>
+                    <input name="Acc" required/>
+                </div>
+                <div class="row-controlers-container">
+                    <input class="btn-blue pointerOnHover" type="submit" value="Count this">
+                </div>
+            </form>
+
+            <form class="display-as-form form-space" autocomplete="off" action="/MaclaurinServelet/MMHRH" method="POST">
+                <info>History</info>
+                <div class="form-row-input">
+                    <header>Count:</header>
+                    <input name="count" required/>
+                </div>
+                <div class="row-controlers-container">
+                    <input class="btn-red pointerOnHover" type="submit" value="See history">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

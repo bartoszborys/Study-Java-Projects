@@ -1,0 +1,170 @@
+/*
+    Private Bartosz Borys CSS library.
+*/
+/* 
+    Created on : 2017-12-25, 10:29:30
+    Author     : Bartek
+*/
+
+main
+{
+    margin-top:70px;
+}
+
+.display-as-card
+{
+	width:400px;
+	border: solid 1px black;
+	padding:10px;
+}
+
+.display-as-form
+{
+	padding: 5px;
+}
+
+.display-as-form info{
+        font-size: 2.5em;
+        font-family: sylfaen;
+        font-weight: bold;
+}
+
+.display-as-form .form-row-input
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.display-as-form .form-row-input header
+{
+	font-weight: normal;
+	font-size: 1.5em;
+	font-family: sylfaen;
+	color: black;
+}
+
+.display-as-form .form-row-input input
+{
+	width: -moz-available;
+	width: -webkit-fill-available;
+	border: ridge 2px aliceblue;
+	font-size: 1.5em;
+}
+
+.display-as-form .form-row-input input:hover
+{
+	width: -moz-available;
+	width: -webkit-fill-available;
+	border: ridge 2px #4dd7de69;
+	font-size: 1.5em;
+}
+
+.display-as-form .row-controlers-container input
+{
+	width: 100px;
+	height: 30px;
+	outline: none;
+	border-radius: 6px;
+	border: solid 2px #55555555;
+	background-color: #33333333;
+}
+
+.display-as-form .row-controlers-container input:hover
+{
+	width: 100px;
+	height: 30px;
+	outline: none;
+	border-radius: 6px;
+	border: solid 2px #77777777;
+	background-color: #55555555;
+}
+
+.display-as-form .form-row-input .txt-aqua
+{
+	border-color: #F0F8FFBB!important;
+	background-color: #F0F8FF55!important;
+}
+
+.display-as-form .form-row-input .txt-aqua:hover
+{
+	border-color: #F0F8FFFF!important;
+	background-color: #F0F8FFBB!important;
+}
+
+.display-as-form .row-controlers-container .btn-red
+{
+	border-color: #BB000099!important;
+	background-color: #AA000099!important;
+}
+
+.display-as-form .row-controlers-container .btn-red:hover
+{
+	border-color: #EE000099!important;
+	background-color: #DD000099!important;
+}
+
+.display-as-form .row-controlers-container .btn-blue
+{
+	border-color: #0000BB99!important;
+	background-color: #0000AA99!important;
+}
+
+.display-as-form .row-controlers-container .btn-blue:hover
+{
+	border-color: #0000EE99!important;
+	background-color: #0000DD99!important;
+}
+
+.form-space
+{
+    border: solid black 2px;
+    margin: 5px;
+}
+
+.pointerOnHover
+{
+    cursor: pointer;
+}
+
+div#modt
+{
+    min-height: 70px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div#modt .support img
+{
+    width: 50px;
+    height: auto;
+}
+
+div#modt .support img.good
+{
+   border: solid green 2px;
+}
+
+div#modt .support img.warning
+{
+    border: solid yellow 2px;
+}
+
+div#modt .support
+{
+    float: right;
+}
+
+.back-button
+{
+    padding: 5 20px;
+    background-color: white;
+    border: solid 2px black;
+}
+
+.back-button:hover
+{
+    padding: 5 20px;
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+}
